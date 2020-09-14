@@ -1,0 +1,246 @@
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
+
+    body{
+        background-color: rgba(170, 165, 165, 0.63);
+      }
+      header{
+        background-color: rgb(214, 208, 208);
+      }
+      header .name{
+        line-height: 15px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: auto;
+        vertical-align: bottom;
+      }
+      header .name .title{
+        font-weight: bold;
+        font-size: 30px;
+      }
+      header .name p{
+        font-weight: bold;
+        color: rgb(30, 30, 105);
+      }
+      .w15{
+        width: 15%;
+      }
+      .w60{
+        width: 60%;
+      }
+      .w70{
+        width: 70%;
+      }
+      .w30{
+        width: 30%;
+      }
+      .w33{
+        width: 33%;
+      }
+      .w25{
+        width: 25%;
+        padding: 2%;
+      }
+      header .logo{
+        padding: 1%;
+        margin-left: 2%;
+      }
+      .flex{
+        display: flex;
+      }
+      .navbar-brand{
+        font-weight: bold;
+        font-size: 20px;
+        margin: auto;
+        display: none;
+      }
+      .fle{
+        display:flex;
+      }
+      nav ul li{
+        display: block;
+        margin-right: 5px;
+        margin-left: 5px;
+        border-radius: 10px;
+      }
+      .about .pic{
+        width: 250px;
+        margin: auto;
+      }
+      .about .container-fluid .w30 img{
+        width: 60%;
+        margin: auto;
+        height: 50;     
+      }
+      .about .vam img{
+        width: 250px;
+      }
+      .about .mdtext h2,
+      .about .vam h2,
+      .event {
+        text-align: center;
+        color: rgb(80, 134, 185);
+        text-shadow: 2px 2px 3px rgb(13, 12, 15);
+        letter-spacing: 2px;
+      }
+      .about .vam p{
+        padding: 1%;
+        text-align: justify;
+        text-justify: inter-word;
+      }
+      .vam{
+        padding: 1%;
+      }
+      .about .mdimg img{
+        border: 1px solid black;
+        border-radius: 50%;
+      }
+      .course .card{
+        margin-bottom: 2%;
+        box-shadow: 5px 5px 7px rgb(20, 20, 22);
+      }
+      .course .card:hover{
+        background-color: rgba(80, 233, 80, 0.404);
+        box-shadow: 5px 5px 7px rgb(20, 20, 117);
+      }
+      table tr td{
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+      #course .title h2{
+        color: rgb(80, 134, 185);
+        text-shadow: 2px 2px 3px rgb(13, 12, 15);
+        letter-spacing: 2px;
+      }
+      .Mainfooter{
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 2%;
+        list-style: none;
+      }
+      .Mainfooter p{
+        font-size: 14px;
+        list-style: none;
+      }
+      .Mainfooter li a:link{
+        color: rgb(212, 206, 206);
+        text-decoration: none;
+      }
+      .Mainfooter li a:active{
+        color: white;
+        text-decoration: none;
+      }
+      .Mainfooter li a:visited{
+        color: white;
+        text-decoration: none;
+      }
+      .Mainfooter .social-network li{
+        list-style: none;
+      }
+      .event{
+        justify-content: left;
+      }
+      iframe{
+        width: 100%;
+        margin: auto;
+        height: 100vh;
+        padding: 2%;
+      }
+      #gallery center button{
+        border-radius: 18.5px;
+        padding-left: 3%;
+        padding-right: 3%;
+        outline: none;
+      }
+      @media only screen and (max-width: 640px){
+         .navbar-brand{
+            display: initial;
+         }
+        .flex{
+          display: initial;
+        }
+        header .name{
+        line-height: 30px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 100%;
+        margin: auto;
+        vertical-align: bottom;
+      }
+      header .name .title{
+        font-weight: bold;
+        font-size: 30px;
+      }
+      header .name p{
+        font-weight: bold;
+        color: rgb(30, 30, 105);
+      }
+      .w15{
+        width: 100%;
+      }
+      .w45{
+        width: 100%;
+      }
+      .w25{
+        width: 100%;
+        padding: 2%;
+      }
+      header .logo{
+        width: 20%;
+        margin: auto;
+      }
+      header .contact{
+        text-align: center;
+      }
+      .about .flex{
+        display: initial;
+      }
+      .about .container-fluid .w70{
+        width: 100%;
+        text-align: justify;
+        text-justify: inter-word;
+      }
+      .about .container-fluid .w30 img{
+        width: 200px;
+        margin: auto;
+      }
+      .about .vam .w33{
+        width: 100%;
+      }
+      .facility .title img{
+        width: 300px;
+      }
+      .course .card{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 2%;
+        box-shadow: 5px 5px 7px rgb(20, 20, 22);
+      }
+      .Mainfooter .social-network li{
+        list-style: none;
+        padding-right: 5%;
+        padding-left: 5%;
+      }
+      .Mainfooter .social-network{
+        display: flex;
+      }
+      .event{
+        width: 100%;
+        margin: 0%;
+      }
+      iframe{
+        width: 100%;
+        height: 350px;
+        margin-left: 0%;
+        margin-right: 0%;
+      }
+      .event .notice{
+        width: auto;
+        height: auto;
+      }
+      }
